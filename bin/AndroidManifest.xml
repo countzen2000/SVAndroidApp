@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="15"
+          android:versionName="1.0"
+          package="com.socialvibe.sampleapp"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+ 		<application 
+               android:icon="@drawable/icon"
+               android:label="@string/app_name"
+               android:theme="@style/AppTheme">
+ 
+ <!--  For Api level 14<application android:hardwareAccelerated="true"
+               android:icon="@drawable/icon"
+               android:label="@string/app_name"
+               android:theme="@style/AppTheme"> -->
+    <!-- For api level 14<activity android:configChanges="keyboardHidden|orientation|screenSize"
+              android:launchMode="singleTask"
+              android:name=".SocialVibeActivity"
+              android:screenOrientation="portrait"> -->
+    <activity 
+              android:launchMode="singleTask"
+              android:name=".SocialVibeActivity"
+              android:screenOrientation="portrait">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <receiver android:name="com.socialvibe.mobilesdk.LocalNotificationReceiver" />
+  </application>
+  <supports-screens android:largeScreens="false"
+                    android:normalScreens="true"
+                    android:xlargeScreens="false" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+  <uses-permission android:name="android.permission.VIBRATE" />
+  <uses-sdk android:minSdkVersion="14"
+            android:targetSdkVersion="17" />
+</manifest>

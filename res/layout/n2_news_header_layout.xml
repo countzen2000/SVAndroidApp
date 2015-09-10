@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/n2_news_header_layout"
+    style="@style/N2NewsHeader"
+    android:layout_width="match_parent"
+    android:background="@drawable/n2_news_header_bg" >
+
+    <Button
+        android:id="@+id/home_button"
+        style="@style/N2NewsHomeButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/button_home" >
+    </Button>
+
+    <View
+        style="@style/N2NewsHeaderText"
+        android:layout_centerInParent="true"
+        android:background="@drawable/n2_news_header_text" >
+    </View>
+
+</RelativeLayout>

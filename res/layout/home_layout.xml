@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background"
+        android:orientation="vertical" >
+
+        <View
+            style="@style/Header"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/header" />
+
+        <FrameLayout
+            style="@style/BackgroundDivider"
+            android:layout_width="match_parent"
+            android:background="@drawable/background_divider" >
+
+            <View
+                style="@style/ExamplesPrompt"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/text_tap_to_view_examples" />
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:id="@+id/content_gate"
+                style="@style/MenuItem"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/background_menu_item"
+                android:orientation="vertical" >
+
+                <View
+                    style="@style/MenuImage"
+                    android:background="@drawable/image_content_gate" />
+
+                <View
+                    style="@style/MenuText"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/text_content_gate" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/expandable_banners"
+                style="@style/MenuItem"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/background_menu_item"
+                android:orientation="vertical" >
+
+                <View
+                    style="@style/MenuImage"
+                    android:background="@drawable/image_expandable_banners" />
+
+                <View
+                    style="@style/MenuText"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/text_expandable_banners" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/local_notifications"
+                style="@style/MenuItem"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/content_gate"
+                android:background="@drawable/background_menu_item"
+                android:orientation="vertical" >
+
+                <View
+                    style="@style/MenuImage"
+                    android:background="@drawable/image_local_notifications" />
+
+                <View
+                    style="@style/MenuText"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/text_local_notifications" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/interstitials"
+                style="@style/MenuItem"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/expandable_banners"
+                android:background="@drawable/background_menu_item"
+                android:orientation="vertical" >
+
+                <View
+                    style="@style/MenuImage"
+                    android:background="@drawable/image_interstitials" />
+
+                <View
+                    style="@style/MenuText"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/text_interstitials" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/button1"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/settingButtonName" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

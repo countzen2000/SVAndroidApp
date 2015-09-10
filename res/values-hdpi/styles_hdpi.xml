@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Header">
+        <item name="android:layout_width">272.3dp</item>
+        <item name="android:layout_height">115.3dp</item>
+    </style>
+
+    <style name="BackgroundDivider">
+        <item name="android:layout_height">26.3dp</item>
+    </style>
+
+    <style name="ExamplesPrompt">
+        <item name="android:layout_width">181.6dp</item>
+        <item name="android:layout_height">26.3dp</item>
+    </style>
+
+    <style name="MenuItem">
+        <item name="android:layout_width">156.6dp</item>
+        <item name="android:layout_height">179.3dp</item>
+        <item name="android:layout_marginTop">2.5dp</item>
+        <item name="android:layout_marginBottom">2.5dp</item>
+        <item name="android:layout_marginLeft">2.5dp</item>
+        <item name="android:layout_marginRight">4.5dp</item>
+    </style>
+
+    <style name="MenuImage">
+        <item name="android:layout_width">156.6dp</item>
+        <item name="android:layout_height">138.4dp</item>
+    </style>
+
+    <style name="MenuText">
+        <item name="android:layout_width">112dp</item>
+        <item name="android:layout_height">40.9dp</item>
+        <item name="android:layout_marginTop">-9.1dp</item>
+    </style>
+
+    <dimen name="n2_news_title_bar_height">45dp</dimen>
+
+    <style name="N2NewsHeader">
+        <item name="android:layout_height">45dp</item>
+    </style>
+
+    <style name="N2NewsHeaderText">
+        <item name="android:layout_width">134dp</item>
+        <item name="android:layout_height">34dp</item>
+    </style>
+
+    <style name="N2NewsHomeButton">
+        <item name="android:layout_width">45.8dp</item>
+        <item name="android:layout_height">27.7dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">4.5dp</item>
+    </style>
+
+    <style name="ContentGateHeader">
+        <item name="android:layout_width">308.7dp</item>
+        <item name="android:layout_height">79.4dp</item>
+        <item name="android:layout_marginTop">38.6dp</item>
+        <item name="android:layout_marginBottom">45.4dp</item>
+    </style>
+
+    <style name="ContentGateButton">
+        <item name="android:layout_width">304dp</item>
+        <item name="android:layout_height">62.6dp</item>
+    </style>
+
+    <style name="ContentGateTextTap">
+        <item name="android:layout_width">84dp</item>
+        <item name="android:layout_height">22.7dp</item>
+    </style>
+
+    <style name="ContentGateTextOr">
+        <item name="android:layout_width">22.7dp</item>
+        <item name="android:layout_height">22.7dp</item>
+    </style>
+
+    <style name="SponsoredAccessHeader">
+        <item name="android:layout_width">292.8dp</item>
+        <item name="android:layout_height">90.8dp</item>
+        <item name="android:layout_marginTop">31.8dp</item>
+    </style>
+
+    <style name="SponsoredAccessButton">
+        <item name="android:layout_width">217dp</item>
+        <item name="android:layout_height">39.5dp</item>
+        <item name="android:layout_marginBottom">13.6dp</item>
+    </style>
+
+    <style name="SponsoredAccessSeparator">
+        <item name="android:layout_width">257.4dp</item>
+        <item name="android:layout_height">23.1dp</item>
+    </style>
+
+    <style name="SponsoredAccessTextSubscriber">
+        <item name="android:layout_width">208.8dp</item>
+        <item name="android:layout_height">36.3dp</item>
+    </style>
+
+    <style name="SponsoredAccessTextNotSubscriber">
+        <item name="android:layout_width">168dp</item>
+        <item name="android:layout_height">36.3dp</item>
+    </style>
+
+    <style name="SponsoredAccessTextPayForAccess">
+        <item name="android:layout_width">118dp</item>
+        <item name="android:layout_height">18.2dp</item>
+        <item name="android:layout_marginBottom">4.5dp</item>
+    </style>
+
+    <style name="SponsoredAccessTextSponsoredAccess">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">18.2dp</item>
+        <item name="android:layout_marginBottom">4.5dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/transparent_white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <View
+        style="@style/SponsoredAccessHeader"
+        android:background="@drawable/sponsored_access_header" />
+
+    <View
+        style="@style/SponsoredAccessTextSubscriber"
+        android:background="@drawable/sponsored_access_text_subscriber" />
+
+    <View
+        style="@style/SponsoredAccessButton"
+        android:background="@drawable/sponsored_access_free_app_access" />
+
+    <View
+        style="@style/SponsoredAccessSeparator"
+        android:background="@drawable/sponsored_access_separator" />
+
+    <View
+        style="@style/SponsoredAccessTextNotSubscriber"
+        android:background="@drawable/sponsored_access_text_not_subscriber" />
+
+    <View
+        style="@style/SponsoredAccessTextPayForAccess"
+        android:background="@drawable/sponsored_access_text_pay_for_access" />
+
+    <View
+        style="@style/SponsoredAccessButton"
+        android:background="@drawable/sponsored_access_buy_now" />
+
+    <View
+        style="@style/SponsoredAccessTextSponsoredAccess"
+        android:background="@drawable/sponsored_access_text_sponsored_access" />
+
+    <View
+        android:id="@+id/sponsored_access_3_day_pass_button"
+        style="@style/SponsoredAccessButton"
+        android:background="@drawable/sponsored_access_free_3_day_pass" />
+
+</LinearLayout>

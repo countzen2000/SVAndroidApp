@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/transparent_gray"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <View
+        style="@style/ContentGateHeader"
+        android:background="@drawable/content_gate_header" />
+
+    <View
+        style="@style/ContentGateTextTap"
+        android:background="@drawable/content_gate_text_tap" />
+
+    <View
+        android:id="@+id/content_gate_video_button"
+        style="@style/ContentGateButton"
+        android:background="@drawable/content_gate_video" />
+
+    <View
+        style="@style/ContentGateTextOr"
+        android:background="@drawable/content_gate_text_or" />
+
+    <View
+        android:id="@+id/content_gate_engage_button"
+        style="@style/ContentGateButton"
+        android:background="@drawable/content_gate_engage" />
+
+</LinearLayout>

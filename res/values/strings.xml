@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">SocialVibe</string>
+    
+    <!-- Home Screen -->
+    <string name="settingButtonName">Settings</string>
+    
+    <!-- Setting Screen -->
+    <string name="useQA">Use QA Server</string>
+
+</resources>
